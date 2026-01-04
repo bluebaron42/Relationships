@@ -4938,14 +4938,14 @@ const AvatarArchitectSimL9: React.FC<{ isPresentation: boolean }> = ({ isPresent
             <div className="grid grid-cols-2 gap-8 mb-6 border-b border-green-900 pb-6">
               <div>
                 <span className="text-xs text-green-700 uppercase block">Authenticity</span>
-                <span className="text-xl text-white">{feedback.prevStats.authenticity} -&gt; {feedback.newStats.authenticity}</span>
+                <span className="text-xl text-white">{feedback.prevStats.authenticity} → {feedback.newStats.authenticity}</span>
                 <span className={`text-xs block ${feedback.effect.auth >= 0 ? 'text-green-500' : 'text-red-500'}`}>
                   ({feedback.effect.auth > 0 ? '+' : ''}{feedback.effect.auth})
                 </span>
               </div>
               <div>
                 <span className="text-xs text-green-700 uppercase block">Appeal</span>
-                <span className="text-xl text-white">{feedback.prevStats.appeal} -&gt; {feedback.newStats.appeal}</span>
+                <span className="text-xl text-white">{feedback.prevStats.appeal} → {feedback.newStats.appeal}</span>
                 <span className={`text-xs block ${feedback.effect.app >= 0 ? 'text-green-500' : 'text-red-500'}`}>
                   ({feedback.effect.app > 0 ? '+' : ''}{feedback.effect.app})
                 </span>
