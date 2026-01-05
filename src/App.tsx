@@ -96,6 +96,7 @@ import {
   Edit3,
   Ticket,
   Radio,
+  Scale,
 } from 'lucide-react';
 
 // ==========================================
